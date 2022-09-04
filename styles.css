@@ -19,12 +19,14 @@ div {
     
     background-color: rgb(16, 42, 58);
     padding-bottom: 750px;
-    margin-right: 450px;
-    margin-left: 450px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     opacity: 0.8;
     border-radius: 12px;
     padding-left: 50px;
-    padding-top: 60px;   
+    padding-top: 60px;  
+    padding-right: 50px; 
 }
 
 label {
@@ -32,4 +34,29 @@ label {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: block;
     margin-bottom: 8px;
+    color: white;
 }
+
+input {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: rgb(81, 79, 79);
+}
+
+fieldset {
+    padding-right: 20px;
+    margin-bottom: 8px;
+
+}
+
+input::placeholder {
+    text-align: left;
+    font-size: 18px;
+}
+
