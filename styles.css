@@ -70,4 +70,20 @@ input::placeholder  {
    width: unset;
   }
 
+  textarea {
+    width: 100%;
+  }
 
+  input[type="submit"] {
+    background-color: lightblue;
+
+  }
+
+  input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  input[type="submit"]:active {
+    opacity: 0.5;
+  }
