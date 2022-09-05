@@ -1,14 +1,18 @@
 body {
+    background-position: center;
         background-image: linear-gradient(
             115deg,
             rgba(9, 9, 220, 0.55),
             rgba(39, 39, 130, 0.526)
-          ), url(https://miro.medium.com/max/840/1*mUKdW2RLRRVWzJtCDJv5jw.jpeg);
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
+          ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+           
+         
+          background-repeat: no-repeat;
+          background-size: cover;
+       color: white;
+       font-size: 20px;
 }
+
 h1, p {
     display: block;
     text-align: center;
@@ -18,7 +22,7 @@ h1, p {
 div {
     
     background-color: rgb(16, 42, 58);
-    padding-bottom: 750px;
+    padding-bottom: 450px;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +34,6 @@ div {
 }
 
 label {
-    font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: block;
     margin-bottom: 8px;
@@ -61,7 +64,7 @@ input::placeholder  {
     font-size: 16px;
 }
 
-.inline {
+.inline, input[type="checkbox"] {
    display: inline-block;
    vertical-align: left;
    width: unset;
