@@ -22,7 +22,7 @@ h1, p {
 div {
     
     background-color: rgb(16, 42, 58);
-    padding-bottom: 450px;
+    padding-bottom: 140px;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -76,7 +76,7 @@ input::placeholder  {
 
   input[type="submit"] {
     background-color: lightblue;
-
+    
   }
 
   input[type="submit"]:hover {
@@ -87,3 +87,4 @@ input::placeholder  {
   input[type="submit"]:active {
     opacity: 0.5;
   }
+
