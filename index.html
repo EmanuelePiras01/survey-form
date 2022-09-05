@@ -14,12 +14,35 @@
     <div>
      <fieldset>
         <label>Name</label>
-        <input type="text" id="name" placeholder="Enter your name" required>  
+        <input type="text" name="name" id="name" placeholder="Enter your name" required/>  
      </fieldset>
      <fieldset>
         <label>Email</label>
-        <input type="email" id="email" placeholder="Enter your email" required>  
-     </fieldset>                 
+        <input type="email" name="email" id="email" placeholder="Enter your email" required/>  
+     </fieldset>
+     <fieldset>
+        <label>Age <small>(optional)</small></label>
+        <input type="number" name="age" id="number" min="10" max="100" placeholder="Enter your age" required/>  
+     </fieldset> 
+     <fieldset>
+        <label>Which option best describes your current role?</label>
+        <select id="dropdown" name="role" required>
+            <option class="disabled-value" disabled selected value>select your current role</option>
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Unemployed</option>
+            <option>Other</option>
+        </select>
+     </fieldset>
+     <fieldset>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+        <label> <input type="radio" name="radio" class="inline" checked/>  Definitely</label>
+        <label> <input type="radio" name="radio" class="inline" /> Maybe</label>
+        <label> <input type="radio" name="radio" class="inline" /> Not sure</label>
+     </fieldset> 
+     <fieldset>
+     <input type="submit" id="submit">
+    </fieldset>               
     </div>
 </form>
 </body>
